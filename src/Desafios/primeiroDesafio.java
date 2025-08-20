@@ -3,9 +3,9 @@ package Desafios;
 public class primeiroDesafio {
     public static void main(String[] args) {
         String nomeNinja1 = "Naruto Uzumaki";
-        int idadeNinja1 = 16;
+        int idadeNinja1 = 14;
         String nomeDaMissao1 = "Caçar um javali";
-        char nivelDaMissao1 = 'B';
+        char nivelDaMissao1 = 'S';
         String statusDaMissao1 = "não concluída";
 
         // Verificar nível da missão e idade
@@ -60,13 +60,5 @@ public class primeiroDesafio {
         System.out.println("Nome da missão: " + nomeDaMissao3);
         System.out.println("Nível da missão: " + nivelDaMissao3);
         System.out.println("Status da missão: " + statusDaMissao3);
-
-        if (idadeNinja1 < 15 && (nivelDaMissao1 == 'C' || nivelDaMissao1 == 'D')) {
-            statusDaMissao1 = "concluída";
-        } else if (idadeNinja1 >= 15) {
-            statusDaMissao1 = "concluída";
-        } else statusDaMissao1 = "não concluída";
-
-
     }
 }
