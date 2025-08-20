@@ -3,8 +3,8 @@ package TiposDeDados;
 public class DadosPrimitivos {
     public static void main(String[] args) {
         /*
-        * Dados Primitivos - int, double, float, char, boolean, short
-        * Objetivo da aula: Criar um ninja - Naruto -
+         * Dados Primitivos - int, double, float, char, boolean, short
+         * Objetivo da aula: Criar um ninja - Naruto -
          */
 
         int idade = 16; // Valor máximo: 2 147 483 647
